@@ -6,6 +6,7 @@ public class Input_output {
     public static void main(String[] args) {
         int marks[] = new int [100];
 
+        @SuppressWarnings("resource")
         Scanner sc  = new Scanner(System.in);
             // int phy;
             // phy = sc.nextInt();
