@@ -15,7 +15,12 @@ public class Linear_search {
     public static void main(String[] args) {
         int number [] = {2,4,6,8,10,12,14,16};
         int key = 10;
-        System.out.println("Key's index in array = "+linearSearch(number,key));;
+
+        if(linearSearch(number, key)==-1)
+            System.out.println("Key doesn't exit ");
+        else
+             System.out.println("Key's at index = "+linearSearch(number,key));;
+
 
     }
 }
