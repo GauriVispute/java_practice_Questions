@@ -4,9 +4,11 @@ public class Linear_search {
     public static int find_key_index(int number[],int key){
         for (int i =0;i<number.length;i++){
             if(number[i] == key){
+                //retrun the specific index
                 return i;
             }
         }
+        //if did match then return -1
         return -1;
     }
 
