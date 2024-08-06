@@ -1,7 +1,7 @@
 package Arrays;
 
 public class Linear_search {
-    public static int find_key_index(int number[],int key){
+    public static int linearSearch(int number[],int key){
         for (int i =0;i<number.length;i++){
             if(number[i] == key){
                 //retrun the specific index
@@ -14,8 +14,8 @@ public class Linear_search {
 
     public static void main(String[] args) {
         int number [] = {2,4,6,8,10,12,14,16};
-        int key = 15;
-        System.out.println("Key index in array number = "+find_key_index(number,key));;
+        int key = 10;
+        System.out.println("Key's index in array = "+linearSearch(number,key));;
 
     }
 }
