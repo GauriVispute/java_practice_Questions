@@ -8,7 +8,7 @@ public class Linear_search {
                 return i;
             }
         }
-        //if did match then return -1
+        //if did match then return -1 means key doesn't exits
         return -1;
     }
 
