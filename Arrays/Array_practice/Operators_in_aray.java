@@ -53,10 +53,25 @@ public class Operators_in_aray {
         printArray(n);
     }
 
+    public static void divide_by_specific_no(int n[]){
+            
+        @SuppressWarnings("resource")
+        Scanner sc = new Scanner(System.in);
+        System.out.print("Enter number : ");
+        g_var = sc.nextInt();
+
+        for(int i =0 ;i<n.length;i++){
+            n[i] /= g_var ; 
+        }
+
+        System.out.print("Current Array : ");
+        printArray(n);
+    }
 
 
     public static void main(String[] args) {
         int numbers []=  {5,2,4,9,8};
+        
         System.out.print("Taken array : ");
         printArray(numbers);
         System.out.println();
@@ -67,5 +82,7 @@ public class Operators_in_aray {
         multipy_each_specific_no(numbers);
         System.out.println("\nSubtracted by specific number : ");
         subtract_by_specific_no(numbers);
+        System.out.println("\nDivide by specific number : ");
+        divide_by_specific_no(numbers);
     }
 }
