@@ -2,7 +2,7 @@ package Arrays.Array_practice;
 
 import java.util.*;
 
-public class Operators_in_aray {
+public class Arithimatic_operations_in_aray {
     public static int g_var; // global variable
 
     public static void  printArray(int n[]){
@@ -68,6 +68,21 @@ public class Operators_in_aray {
         printArray(n);
     }
 
+    public static void modulo_by_specific_no(int n[]){
+
+        @SuppressWarnings("resource")
+        Scanner sc = new Scanner(System.in);
+        System.out.print("Enter number : ");
+        g_var = sc.nextInt();
+
+        for(int i =0 ;i<n.length;i++){
+            n[i] %= g_var;  // n[i] = n[i] % g_var;
+        }
+
+        System.out.print("Current Array : ");
+        printArray(n);
+
+    }
 
     public static void main(String[] args) {
         int numbers []=  {5,2,4,9,8};
@@ -84,5 +99,8 @@ public class Operators_in_aray {
         subtract_by_specific_no(numbers);
         System.out.println("\nDivide by specific number : ");
         divide_by_specific_no(numbers);
+        System.out.println("\nModulo by specific number ; ");
+        modulo_by_specific_no(numbers);
+                
     }
 }
