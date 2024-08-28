@@ -39,7 +39,7 @@ public class Array_operations {
            */  
           size++;
           
-          for(int i=size;i>index;i--){
+          for(int i=size-1;i>index;i--){
            n[i] = n[i-1];   //n[5]=n[4]
           } 
 
@@ -47,6 +47,7 @@ public class Array_operations {
 
         }
         traverse(n);
+
         //element at end (tail)
 
         // element in  in-between
@@ -59,11 +60,12 @@ public class Array_operations {
         System.out.print("Enter size of array : ");
         size = sc.nextInt();
         int number[] = new int [size+1] ;
+        
         System.out.print("Enter "+size+" number : ");
         for (int i =0 ;i<size;i++){
             number[i] = sc.nextInt();
         }
-
+        System.out.print("size of array : "+number.length);
         Insert(number);
     }
 
