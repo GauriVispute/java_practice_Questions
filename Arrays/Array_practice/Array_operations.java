@@ -8,7 +8,7 @@ public class Array_operations {
 
     public static int size = 5; //global array size that we can change after 
     static int index;    // default value is zero
-
+    
 
     public static void printMenu(){
         System.out.println("Menu : ");
@@ -25,14 +25,14 @@ public class Array_operations {
     
     public static void Insert(int n[]){
 
-        System.out.print("Enter number ");
+        System.out.print("Enter number : ");
         int number = sc.nextInt();
 
         System.out.print("Enter the index :");
         index = sc.nextInt();
 
         // element at beginning (head)
-        if(index == 0){
+        if(index == 0 || index == size-1){
           /*
           n = array size 
           so size is n+1
@@ -49,6 +49,16 @@ public class Array_operations {
         traverse(n);
 
         //element at end (tail)
+        // else if( index>0 || index<(size-1)){
+        // for (i){
+            
+        // }
+
+        // }
+        // else {
+
+        // }
+        
 
         // element in  in-between
 
@@ -65,8 +75,9 @@ public class Array_operations {
         for (int i =0 ;i<size;i++){
             number[i] = sc.nextInt();
         }
-        System.out.print("size of array : "+number.length);
+        System.out.print("size of array : "+size+"\nlength of array :  "+number.length+"\n");
         Insert(number);
+        
     }
 
 }
