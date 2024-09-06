@@ -38,7 +38,7 @@ public class Array_operations {
           so size is n+1
            */  
           size++;
-          
+          // beginning and ending adding the element
           for(int i=size-1;i>index;i--){
            n[i] = n[i-1];   //n[5]=n[4]
           } 
@@ -46,19 +46,16 @@ public class Array_operations {
             n[index] = number;
 
         }
-        traverse(n);
+        //traverse(n);
 
-        //element at end (tail)
-        // else if( index>0 || index<(size-1)){
-        // for (i){
-            
-        // }
-
-        // }
-        // else {
-
-        // }
         
+        else {
+            for (int i = size-2;i>index ;i--){
+                n[i] = n[i-1];
+            }
+            n[number] = number;
+        }
+        traverse(n);
 
         // element in  in-between
 
