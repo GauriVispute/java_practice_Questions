@@ -1,6 +1,6 @@
 package Arrays.Array_practice;
 import java.util.*; 
-public class largest_no {
+public class largest_smallest_no {
     public static void largest_smallest_no(int n[]){
         int max = Integer.MIN_VALUE;
         int min = Integer.MAX_VALUE;
