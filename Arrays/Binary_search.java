@@ -1,4 +1,4 @@
-package Arrays.Array_practice;
+package Arrays;
 
 public class Binary_search {
     public static void binarySearch(int n [],int start,int end){
