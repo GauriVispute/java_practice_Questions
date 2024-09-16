@@ -1,5 +1,7 @@
 package Arrays.Array_practice;
+
 import java.util.*; 
+
 public class largest_smallest_no {
     public static void largest_smallest_no(int n[]){
         int max = Integer.MIN_VALUE;
@@ -16,7 +18,7 @@ public class largest_smallest_no {
         System.out.println("Smallest number = "+min);
     }
     public static void main(String[] args) {
-        int number[] = {99,2,6,3,4,5,1};
+        int number[] = {23,45,7,3,1,90,22};
 
         largest_smallest_no(number);
     }
