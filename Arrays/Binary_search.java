@@ -2,10 +2,10 @@ package Arrays;
 
 public class Binary_search {
     public static void binarySearch(int n [],int start,int end){
-        int mid = start+end/2;
+       // int mid = start+end/2;
 
         if(start == end){
-            return mid;
+           // return mid;
         }
         else {
 

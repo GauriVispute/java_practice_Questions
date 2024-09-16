@@ -1,9 +1,9 @@
 package Arrays;
 
-import java.util.*; 
+
 
 public class largest_smallest_no {
-    public static void largest_smallest_no(int n[]){
+    public static void largestSmallestNo(int n[]){
         int max = Integer.MIN_VALUE;
         int min = Integer.MAX_VALUE;
 
@@ -20,6 +20,6 @@ public class largest_smallest_no {
     public static void main(String[] args) {
         int number[] = {23,45,7,3,1,90,22};
 
-        largest_smallest_no(number);
+        largestSmallestNo(number);
     }
 }
