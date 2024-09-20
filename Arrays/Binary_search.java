@@ -1,27 +1,30 @@
 package Arrays;
 
 public class Binary_search {
-    public static int binarySearch(int number [],int key){
-        int start =0,end = number.length;
+
+    public static int binarySearch(int n[],int key){
+        int start =0,end = n.length-1;
         
         while(start<=end){
             int mid = (start+end)/2;
-            if(number[mid] == key){
+
+            if(n[mid] == key){
                 return mid;
             }
-            if(number[mid]<key){
-                mid = start+1;
-            }else { // number[mid]>key
-                mid = end-1;
+            else if (n[mid]<key){ //right
+               start = mid+1;
+            }else { // number[mid]>key   //left
+               end=mid-1;
             }
         }
+
         return -1;
     }
 
     public static void main(String[] args) {
         int  number [] = {2,4,6,8,10,12,14}; 
-        int key =10;
+        int key =25;
+        System.out.println("Key at index " +binarySearch(number, key) );
 
-        System.out.println("key at index "+binarySearch(number,key));
     }
 }
