@@ -10,10 +10,8 @@ public class Reverse_array_method2 {
             numbers[first]=temp;
 
             first++;
-            last--;
+            last--; 
         }
-
-
     }
 
     public static void main(String[] args) {
