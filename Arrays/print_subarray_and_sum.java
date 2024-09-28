@@ -25,7 +25,7 @@ public class print_subarray_and_sum {
                     if (sum>max){
                         max = sum;
                     }
-                    if(sum<min)
+                    if(sum<min){
                         min = sum;
                     }
                 }System.out.println(")"+" Sum = "+sum);
@@ -33,6 +33,7 @@ public class print_subarray_and_sum {
             }
             System.out.println();
         }
+
         System.out.println("Total Subarray = "+ts);
         System.out.print("Maximum = "+max+" , Minimum = "+min);
 
