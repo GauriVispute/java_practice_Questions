@@ -1,8 +1,6 @@
 package Arrays.Array_practice;
 
 public class remove_duplicates {
-    public static int size ;
-    public static int [] newArr = new int [size];
 
     public static void printArray(int n[],int len){
         for(int i = 0;i<len;i++){
@@ -26,8 +24,7 @@ public class remove_duplicates {
     public static void main(String[] args) {
         //only for sorted array 
         int numbers[] = {1,2,2,2,3,3,4,5};
-        
-        size=numbers.length;
+
         printArray(numbers,numbers.length);
         int uniqueNo = removeDuplicateNumbers(numbers);
         printArray(numbers,uniqueNo);
