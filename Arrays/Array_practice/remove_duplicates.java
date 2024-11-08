@@ -23,7 +23,7 @@ public class remove_duplicates {
 
     public static void main(String[] args) {
         //only for sorted array 
-        int numbers[] = {1,2,2,2,3,3,4,5};
+        int numbers[] = {1,2,2,3,3,3,4,4,4,5,6,6,7,8};
 
         printArray(numbers,numbers.length);
         int uniqueNo = removeDuplicateNumbers(numbers);
