@@ -7,17 +7,17 @@ public class printSubarray {
             int start = i;
             for(int j=i;j<n.length;j++){
                 int end  = j;
-                System.out.print("(");
+                //System.out.print("(");
                 for(int k =start ;k<=end ; k++){
                     System.out.print(" "+n[k]);
                 }
                 ts +=1;
-                System.out.print(" )");
+                System.out.println();
+                //System.out.print(" )");
             }
             System.out.println();
         }
         System.out.println("Total Subarry : "+ts);
-        
     }
 
     public static void main(String[] args) {
