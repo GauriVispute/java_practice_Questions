@@ -1,0 +1,658 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "Array_Declaration",
+            "request": "launch",
+            "mainClass": "Arrays.Array_Declaration",
+            "projectName": "java_practice_Questions_372167ea"
+        },
+        {
+            "type": "java",
+            "name": "Arithimatic_operations_in_aray",
+            "request": "launch",
+            "mainClass": "Arrays.Array_practice.Arithimatic_operations_in_aray",
+            "projectName": "java_practice_Questions_372167ea"
+        },
+        {
+            "type": "java",
+            "name": "Array_operations",
+            "request": "launch",
+            "mainClass": "Arrays.Array_practice.Array_operations",
+            "projectName": "java_practice_Questions_372167ea"
+        },
+        {
+            "type": "java",
+            "name": "Second_largest_element_in_array",
+            "request": "launch",
+            "mainClass": "Arrays.Array_practice.Second_largest_element_in_array",
+            "projectName": "java_practice_Questions_372167ea"
+        },
+        {
+            "type": "java",
+            "name": "check_sorted_array",
+            "request": "launch",
+            "mainClass": "Arrays.Array_practice.check_sorted_array",
+            "projectName": "java_practice_Questions_372167ea"
+        },
+        {
+            "type": "java",
+            "name": "no_of_occurrences",
+            "request": "launch",
+            "mainClass": "Arrays.Array_practice.no_of_occurrences",
+            "projectName": "java_practice_Questions_372167ea"
+        },
+        {
+            "type": "java",
+            "name": "pairs_in_array",
+            "request": "launch",
+            "mainClass": "Arrays.Array_practice.pairs_in_array",
+            "projectName": "java_practice_Questions_372167ea"
+        },
+        {
+            "type": "java",
+            "name": "printSubarray",
+            "request": "launch",
+            "mainClass": "Arrays.Array_practice.printSubarray",
+            "projectName": "java_practice_Questions_372167ea"
+        },
+        {
+            "type": "java",
+            "name": "remove_duplicates",
+            "request": "launch",
+            "mainClass": "Arrays.Array_practice.remove_duplicates",
+            "projectName": "java_practice_Questions_372167ea"
+        },
+        {
+            "type": "java",
+            "name": "Binary_search",
+            "request": "launch",
+            "mainClass": "Arrays.Binary_search",
+            "projectName": "java_practice_Questions_372167ea"
+        },
+        {
+            "type": "java",
+            "name": "Input_output",
+            "request": "launch",
+            "mainClass": "Arrays.Input_output",
+            "projectName": "java_practice_Questions_372167ea"
+        },
+        {
+            "type": "java",
+            "name": "Linear_search",
+            "request": "launch",
+            "mainClass": "Arrays.Linear_search",
+            "projectName": "java_practice_Questions_372167ea"
+        },
+        {
+            "type": "java",
+            "name": "Pairs_in_array",
+            "request": "launch",
+            "mainClass": "Arrays.Pairs_in_array",
+            "projectName": "java_practice_Questions_372167ea"
+        },
+        {
+            "type": "java",
+            "name": "Reverse_array_method1",
+            "request": "launch",
+            "mainClass": "Arrays.Reverse_array_method1",
+            "projectName": "java_practice_Questions_372167ea"
+        },
+        {
+            "type": "java",
+            "name": "Reverse_array_method2",
+            "request": "launch",
+            "mainClass": "Arrays.Reverse_array_method2",
+            "projectName": "java_practice_Questions_372167ea"
+        },
+        {
+            "type": "java",
+            "name": "largest_smallest_no",
+            "request": "launch",
+            "mainClass": "Arrays.largest_smallest_no",
+            "projectName": "java_practice_Questions_372167ea"
+        },
+        {
+            "type": "java",
+            "name": "max_subarray_sum",
+            "request": "launch",
+            "mainClass": "Arrays.max_subarray_sum",
+            "projectName": "java_practice_Questions_372167ea"
+        },
+        {
+            "type": "java",
+            "name": "passing_arrays_as_argument",
+            "request": "launch",
+            "mainClass": "Arrays.passing_arrays_as_argument",
+            "projectName": "java_practice_Questions_372167ea"
+        },
+        {
+            "type": "java",
+            "name": "print_subarray",
+            "request": "launch",
+            "mainClass": "Arrays.print_subarray",
+            "projectName": "java_practice_Questions_372167ea"
+        },
+        {
+            "type": "java",
+            "name": "print_subarray_and_sum",
+            "request": "launch",
+            "mainClass": "Arrays.print_subarray_and_sum",
+            "projectName": "java_practice_Questions_372167ea"
+        },
+        {
+            "type": "java",
+            "name": "calculator",
+            "request": "launch",
+            "mainClass": "conditional_statement.calculator",
+            "projectName": "java_practice_Questions_372167ea"
+        },
+        {
+            "type": "java",
+            "name": "else_if",
+            "request": "launch",
+            "mainClass": "conditional_statement.else_if",
+            "projectName": "java_practice_Questions_372167ea"
+        },
+        {
+            "type": "java",
+            "name": "if_else",
+            "request": "launch",
+            "mainClass": "conditional_statement.if_else",
+            "projectName": "java_practice_Questions_372167ea"
+        },
+        {
+            "type": "java",
+            "name": "income_tax_calculator",
+            "request": "launch",
+            "mainClass": "conditional_statement.income_tax_calculator",
+            "projectName": "java_practice_Questions_372167ea"
+        },
+        {
+            "type": "java",
+            "name": "largest_of_three_no",
+            "request": "launch",
+            "mainClass": "conditional_statement.largest_of_three_no",
+            "projectName": "java_practice_Questions_372167ea"
+        },
+        {
+            "type": "java",
+            "name": "check_fever",
+            "request": "launch",
+            "mainClass": "conditional_statement.practice_qn_Conditonal_statement.check_fever",
+            "projectName": "java_practice_Questions_372167ea"
+        },
+        {
+            "type": "java",
+            "name": "leap_year",
+            "request": "launch",
+            "mainClass": "conditional_statement.practice_qn_Conditonal_statement.leap_year",
+            "projectName": "java_practice_Questions_372167ea"
+        },
+        {
+            "type": "java",
+            "name": "postive_or_negative_no",
+            "request": "launch",
+            "mainClass": "conditional_statement.practice_qn_Conditonal_statement.postive_or_negative_no",
+            "projectName": "java_practice_Questions_372167ea"
+        },
+        {
+            "type": "java",
+            "name": "value_of_x_and_y",
+            "request": "launch",
+            "mainClass": "conditional_statement.practice_qn_Conditonal_statement.value_of_x_and_y",
+            "projectName": "java_practice_Questions_372167ea"
+        },
+        {
+            "type": "java",
+            "name": "weekday_switch_case",
+            "request": "launch",
+            "mainClass": "conditional_statement.practice_qn_Conditonal_statement.weekday_switch_case",
+            "projectName": "java_practice_Questions_372167ea"
+        },
+        {
+            "type": "java",
+            "name": "print_even_or_odd_no",
+            "request": "launch",
+            "mainClass": "conditional_statement.print_even_or_odd_no",
+            "projectName": "java_practice_Questions_372167ea"
+        },
+        {
+            "type": "java",
+            "name": "print_largest_of_two_no",
+            "request": "launch",
+            "mainClass": "conditional_statement.print_largest_of_two_no",
+            "projectName": "java_practice_Questions_372167ea"
+        },
+        {
+            "type": "java",
+            "name": "switch_statement",
+            "request": "launch",
+            "mainClass": "conditional_statement.switch_statement",
+            "projectName": "java_practice_Questions_372167ea"
+        },
+        {
+            "type": "java",
+            "name": "ternary_operator_eg",
+            "request": "launch",
+            "mainClass": "conditional_statement.ternary_operator_eg",
+            "projectName": "java_practice_Questions_372167ea"
+        },
+        {
+            "type": "java",
+            "name": "ternary_oprator",
+            "request": "launch",
+            "mainClass": "conditional_statement.ternary_oprator",
+            "projectName": "java_practice_Questions_372167ea"
+        },
+        {
+            "type": "java",
+            "name": "Binary_to_decimal",
+            "request": "launch",
+            "mainClass": "function.Binary_to_decimal",
+            "projectName": "java_practice_Questions_372167ea"
+        },
+        {
+            "type": "java",
+            "name": "binominal_coefficent",
+            "request": "launch",
+            "mainClass": "function.binominal_coefficent",
+            "projectName": "java_practice_Questions_372167ea"
+        },
+        {
+            "type": "java",
+            "name": "decimal_to_binary",
+            "request": "launch",
+            "mainClass": "function.decimal_to_binary",
+            "projectName": "java_practice_Questions_372167ea"
+        },
+        {
+            "type": "java",
+            "name": "factorial_function",
+            "request": "launch",
+            "mainClass": "function.factorial_function",
+            "projectName": "java_practice_Questions_372167ea"
+        },
+        {
+            "type": "java",
+            "name": "fun_overloading",
+            "request": "launch",
+            "mainClass": "function.fun_overloading",
+            "projectName": "java_practice_Questions_372167ea"
+        },
+        {
+            "type": "java",
+            "name": "fun_overloading_dataType",
+            "request": "launch",
+            "mainClass": "function.fun_overloading_dataType",
+            "projectName": "java_practice_Questions_372167ea"
+        },
+        {
+            "type": "java",
+            "name": "Qn1",
+            "request": "launch",
+            "mainClass": "function.function_practice_qn.Qn1",
+            "projectName": "java_practice_Questions_372167ea"
+        },
+        {
+            "type": "java",
+            "name": "Qn2",
+            "request": "launch",
+            "mainClass": "function.function_practice_qn.Qn2",
+            "projectName": "java_practice_Questions_372167ea"
+        },
+        {
+            "type": "java",
+            "name": "Qn3",
+            "request": "launch",
+            "mainClass": "function.function_practice_qn.Qn3",
+            "projectName": "java_practice_Questions_372167ea"
+        },
+        {
+            "type": "java",
+            "name": "Qn4",
+            "request": "launch",
+            "mainClass": "function.function_practice_qn.Qn4",
+            "projectName": "java_practice_Questions_372167ea"
+        },
+        {
+            "type": "java",
+            "name": "Qn5",
+            "request": "launch",
+            "mainClass": "function.function_practice_qn.Qn5",
+            "projectName": "java_practice_Questions_372167ea"
+        },
+        {
+            "type": "java",
+            "name": "multiply_function",
+            "request": "launch",
+            "mainClass": "function.multiply_function",
+            "projectName": "java_practice_Questions_372167ea"
+        },
+        {
+            "type": "java",
+            "name": "optimize_primeNumber_function",
+            "request": "launch",
+            "mainClass": "function.optimize_primeNumber_function",
+            "projectName": "java_practice_Questions_372167ea"
+        },
+        {
+            "type": "java",
+            "name": "primeNumber",
+            "request": "launch",
+            "mainClass": "function.primeNumber",
+            "projectName": "java_practice_Questions_372167ea"
+        },
+        {
+            "type": "java",
+            "name": "range_primeNo",
+            "request": "launch",
+            "mainClass": "function.range_primeNo",
+            "projectName": "java_practice_Questions_372167ea"
+        },
+        {
+            "type": "java",
+            "name": "basic_loop",
+            "request": "launch",
+            "mainClass": "loops.basic_loop",
+            "projectName": "java_practice_Questions_372167ea"
+        },
+        {
+            "type": "java",
+            "name": "break_in_loop",
+            "request": "launch",
+            "mainClass": "loops.break_in_loop",
+            "projectName": "java_practice_Questions_372167ea"
+        },
+        {
+            "type": "java",
+            "name": "continue_qn_except_multiple_of_10",
+            "request": "launch",
+            "mainClass": "loops.continue_qn_except_multiple_of_10",
+            "projectName": "java_practice_Questions_372167ea"
+        },
+        {
+            "type": "java",
+            "name": "continue_statement",
+            "request": "launch",
+            "mainClass": "loops.continue_statement",
+            "projectName": "java_practice_Questions_372167ea"
+        },
+        {
+            "type": "java",
+            "name": "do_while_loop",
+            "request": "launch",
+            "mainClass": "loops.do_while_loop",
+            "projectName": "java_practice_Questions_372167ea"
+        },
+        {
+            "type": "java",
+            "name": "for_loop_eg",
+            "request": "launch",
+            "mainClass": "loops.for_loop_eg",
+            "projectName": "java_practice_Questions_372167ea"
+        },
+        {
+            "type": "java",
+            "name": "for_loop_eg2",
+            "request": "launch",
+            "mainClass": "loops.for_loop_eg2",
+            "projectName": "java_practice_Questions_372167ea"
+        },
+        {
+            "type": "java",
+            "name": "multiple_of_10",
+            "request": "launch",
+            "mainClass": "loops.multiple_of_10",
+            "projectName": "java_practice_Questions_372167ea"
+        },
+        {
+            "type": "java",
+            "name": "Qn2_sumEven_or_sumOdd",
+            "request": "launch",
+            "mainClass": "loops.practice_qn.Qn2_sumEven_or_sumOdd",
+            "projectName": "java_practice_Questions_372167ea"
+        },
+        {
+            "type": "java",
+            "name": "Qn3_factorial",
+            "request": "launch",
+            "mainClass": "loops.practice_qn.Qn3_factorial",
+            "projectName": "java_practice_Questions_372167ea"
+        },
+        {
+            "type": "java",
+            "name": "Qn4_multiplication_of_table",
+            "request": "launch",
+            "mainClass": "loops.practice_qn.Qn4_multiplication_of_table",
+            "projectName": "java_practice_Questions_372167ea"
+        },
+        {
+            "type": "java",
+            "name": "prime_number",
+            "request": "launch",
+            "mainClass": "loops.prime_number",
+            "projectName": "java_practice_Questions_372167ea"
+        },
+        {
+            "type": "java",
+            "name": "reverse_no",
+            "request": "launch",
+            "mainClass": "loops.reverse_no",
+            "projectName": "java_practice_Questions_372167ea"
+        },
+        {
+            "type": "java",
+            "name": "sun_of_N_natural_no",
+            "request": "launch",
+            "mainClass": "loops.sun_of_N_natural_no",
+            "projectName": "java_practice_Questions_372167ea"
+        },
+        {
+            "type": "java",
+            "name": "while_eg",
+            "request": "launch",
+            "mainClass": "loops.while_eg",
+            "projectName": "java_practice_Questions_372167ea"
+        },
+        {
+            "type": "java",
+            "name": "while_eg2",
+            "request": "launch",
+            "mainClass": "loops.while_eg2",
+            "projectName": "java_practice_Questions_372167ea"
+        },
+        {
+            "type": "java",
+            "name": "while_eg3",
+            "request": "launch",
+            "mainClass": "loops.while_eg3",
+            "projectName": "java_practice_Questions_372167ea"
+        },
+        {
+            "type": "java",
+            "name": "character_triangle",
+            "request": "launch",
+            "mainClass": "pattern_part1.character_triangle",
+            "projectName": "java_practice_Questions_372167ea"
+        },
+        {
+            "type": "java",
+            "name": "inverted_star_pattern",
+            "request": "launch",
+            "mainClass": "pattern_part1.inverted_star_pattern",
+            "projectName": "java_practice_Questions_372167ea"
+        },
+        {
+            "type": "java",
+            "name": "number_pattern",
+            "request": "launch",
+            "mainClass": "pattern_part1.number_pattern",
+            "projectName": "java_practice_Questions_372167ea"
+        },
+        {
+            "type": "java",
+            "name": "checkerBoard_pattern",
+            "request": "launch",
+            "mainClass": "pattern_part1.practice_patterns.checkerBoard_pattern",
+            "projectName": "java_practice_Questions_372167ea"
+        },
+        {
+            "type": "java",
+            "name": "floyds_triangle",
+            "request": "launch",
+            "mainClass": "pattern_part1.practice_patterns.floyds_triangle",
+            "projectName": "java_practice_Questions_372167ea"
+        },
+        {
+            "type": "java",
+            "name": "hollo_rectangle",
+            "request": "launch",
+            "mainClass": "pattern_part1.practice_patterns.hollo_rectangle",
+            "projectName": "java_practice_Questions_372167ea"
+        },
+        {
+            "type": "java",
+            "name": "hollow_rhombus",
+            "request": "launch",
+            "mainClass": "pattern_part1.practice_patterns.hollow_rhombus",
+            "projectName": "java_practice_Questions_372167ea"
+        },
+        {
+            "type": "java",
+            "name": "inverted_half_pyramid_pattern",
+            "request": "launch",
+            "mainClass": "pattern_part1.practice_patterns.inverted_half_pyramid_pattern",
+            "projectName": "java_practice_Questions_372167ea"
+        },
+        {
+            "type": "java",
+            "name": "inverted_rotated_half_pyramid",
+            "request": "launch",
+            "mainClass": "pattern_part1.practice_patterns.inverted_rotated_half_pyramid",
+            "projectName": "java_practice_Questions_372167ea"
+        },
+        {
+            "type": "java",
+            "name": "number_pyramid",
+            "request": "launch",
+            "mainClass": "pattern_part1.practice_patterns.number_pyramid",
+            "projectName": "java_practice_Questions_372167ea"
+        },
+        {
+            "type": "java",
+            "name": "rhombus",
+            "request": "launch",
+            "mainClass": "pattern_part1.practice_patterns.rhombus",
+            "projectName": "java_practice_Questions_372167ea"
+        },
+        {
+            "type": "java",
+            "name": "solid_rhombus",
+            "request": "launch",
+            "mainClass": "pattern_part1.practice_patterns.solid_rhombus",
+            "projectName": "java_practice_Questions_372167ea"
+        },
+        {
+            "type": "java",
+            "name": "triangle_0_1",
+            "request": "launch",
+            "mainClass": "pattern_part1.practice_patterns.triangle_0_1",
+            "projectName": "java_practice_Questions_372167ea"
+        },
+        {
+            "type": "java",
+            "name": "star_pattern",
+            "request": "launch",
+            "mainClass": "pattern_part1.star_pattern",
+            "projectName": "java_practice_Questions_372167ea"
+        },
+        {
+            "type": "java",
+            "name": "Butterfly_pattern",
+            "request": "launch",
+            "mainClass": "pattern_part2.Butterfly_pattern",
+            "projectName": "java_practice_Questions_372167ea"
+        },
+        {
+            "type": "java",
+            "name": "Diamond",
+            "request": "launch",
+            "mainClass": "pattern_part2.Diamond",
+            "projectName": "java_practice_Questions_372167ea"
+        },
+        {
+            "type": "java",
+            "name": "Floys_triangle",
+            "request": "launch",
+            "mainClass": "pattern_part2.Floys_triangle",
+            "projectName": "java_practice_Questions_372167ea"
+        },
+        {
+            "type": "java",
+            "name": "Hollow_Rhombus",
+            "request": "launch",
+            "mainClass": "pattern_part2.Hollow_Rhombus",
+            "projectName": "java_practice_Questions_372167ea"
+        },
+        {
+            "type": "java",
+            "name": "Hollow_rectangle",
+            "request": "launch",
+            "mainClass": "pattern_part2.Hollow_rectangle",
+            "projectName": "java_practice_Questions_372167ea"
+        },
+        {
+            "type": "java",
+            "name": "Inverted_half_pyramid",
+            "request": "launch",
+            "mainClass": "pattern_part2.Inverted_half_pyramid",
+            "projectName": "java_practice_Questions_372167ea"
+        },
+        {
+            "type": "java",
+            "name": "Rhombus",
+            "request": "launch",
+            "mainClass": "pattern_part2.Rhombus",
+            "projectName": "java_practice_Questions_372167ea"
+        },
+        {
+            "type": "java",
+            "name": "inverted_and_rotated_half_triangle",
+            "request": "launch",
+            "mainClass": "pattern_part2.inverted_and_rotated_half_triangle",
+            "projectName": "java_practice_Questions_372167ea"
+        },
+        {
+            "type": "java",
+            "name": "number_pyramid(1)",
+            "request": "launch",
+            "mainClass": "pattern_part2.number_pyramid",
+            "projectName": "java_practice_Questions_372167ea"
+        },
+        {
+            "type": "java",
+            "name": "palindromic_with_number",
+            "request": "launch",
+            "mainClass": "pattern_part2.palindromic_with_number",
+            "projectName": "java_practice_Questions_372167ea"
+        },
+        {
+            "type": "java",
+            "name": "triangle_0_1(1)",
+            "request": "launch",
+            "mainClass": "pattern_part2.triangle_0_1",
+            "projectName": "java_practice_Questions_372167ea"
+        }
+    ]
+}
