@@ -1,6 +1,6 @@
 package Arrays;
 
-public class max_subarray_sum {
+public class max_min_subarray_sum {
 
     public static void maxSubarraySum(int n[]){
         int max = Integer.MIN_VALUE;
