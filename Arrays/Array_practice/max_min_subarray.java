@@ -1,7 +1,5 @@
 package Arrays.Array_practice;
 
-     
-
 public class max_min_subarray {
  
     static int min = Integer.MAX_VALUE;
