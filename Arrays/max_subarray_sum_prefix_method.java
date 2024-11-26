@@ -23,11 +23,8 @@ public class max_subarray_sum_prefix_method {
                     System.out.println(max+" ");
                 }
             }
-            //System.out.println();
         }
-
-        System.out.println("Maximum : "+max);
-        
+        System.out.println("Maximum : "+max);       
     }
 
     public static void main(String[] args) {
