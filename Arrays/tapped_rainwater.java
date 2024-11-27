@@ -6,7 +6,6 @@ public class tapped_rainwater {
         int leftMaxBoundary[] = new int [h.length];
         int rightMaxBoundary[] = new int [h.length];
 
-
         int max = Integer.MIN_VALUE;
         for(int i =0;i<h.length;i++){
             if(h[i]>max){
