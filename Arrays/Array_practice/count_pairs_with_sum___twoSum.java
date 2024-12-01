@@ -8,7 +8,7 @@ public class count_pairs_with_sum___twoSum{
         for(int i=0;i<n.length;i++){
             for(int j=i+1;j<n.length;j++){
                 if(n[i]+n[j] == sum){
-                    System.out.print("("+n[i]+","+n[j]+")"+" ");
+                   // System.out.print("("+n[i]+","+n[j]+")"+" ");
                     count+=1;
                 }
             }
