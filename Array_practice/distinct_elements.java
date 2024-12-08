@@ -1,4 +1,4 @@
-package Arrays.Array_practice;
+package Array_practice;
 
 public class distinct_elements {
 
@@ -16,7 +16,7 @@ public class distinct_elements {
         return isDistinct;
     }
     public static void main(String [] args){
-        int numbers [] = {1,2,3,4};
+        int numbers [] = {1,2,3,1};
         System.out.println(distinctElements(numbers));
     }
 }
