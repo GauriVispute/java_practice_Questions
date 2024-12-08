@@ -1,4 +1,4 @@
-package Arrays.sortingAlgorithms.sortingAlgoPractice;
+package ArraySortingAlgoPractice;
 
 public class selection_sort_algo {
 

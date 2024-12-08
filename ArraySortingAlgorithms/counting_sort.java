@@ -1,4 +1,4 @@
-package Arrays.sortingAlgorithms;
+package ArraySortingAlgorithms;
 
 public class counting_sort {
 

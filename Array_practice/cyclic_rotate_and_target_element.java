@@ -1,4 +1,4 @@
-package Arrays.Array_practice;
+package Array_practice;
 
 public class cyclic_rotate_and_target_element {
 

@@ -1,4 +1,4 @@
-package Arrays.Array_practice;
+package Array_practice;
 import java.util.Scanner;
 public class no_of_occurrences {
     public static int occurrences_of_numbers_in_array(int [] n ,int target){

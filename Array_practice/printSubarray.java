@@ -1,4 +1,4 @@
-package Arrays.Array_practice;
+package Array_practice;
 
 public class printSubarray {
     public static void print_subarray(int n[]){

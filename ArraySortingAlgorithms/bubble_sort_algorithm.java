@@ -1,4 +1,4 @@
-package Arrays.sortingAlgorithms;
+package ArraySortingAlgorithms;
 
 public class bubble_sort_algorithm {
     public static void bubbleSort(int n[]){

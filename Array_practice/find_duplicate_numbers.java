@@ -1,4 +1,4 @@
-package Arrays.Array_practice;
+package Array_practice;
 // unsorted array 
 // requires more revision  
 public class find_duplicate_numbers{

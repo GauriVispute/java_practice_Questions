@@ -1,4 +1,4 @@
-package Arrays.sortingAlgorithms;
+package ArraySortingAlgorithms;
 
 public class insertion_sort_algorithm {
 
