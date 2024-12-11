@@ -7,6 +7,7 @@ public class check_sorted_array {
         for(int i = 0;i<n.length-1;i++){
             if(n[i]>n[i+1]){
                 flag = false;
+                break;
             }
         }
         return flag;

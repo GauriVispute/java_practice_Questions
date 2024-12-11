@@ -1,6 +1,7 @@
 package Array_practice;
 // unsorted array 
 // requires more revision  
+// not solved
 public class find_duplicate_numbers{
    // static int [] duplicate = new int [5]; //global declaration
 

@@ -1,4 +1,4 @@
-package Array_practice;
+package  Array_practice;
 
 public class check_if_array_is_subset_of_another_array {
 

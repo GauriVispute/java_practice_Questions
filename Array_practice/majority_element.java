@@ -12,6 +12,7 @@ public class majority_element {
                     count+=1;
                 }
             }
+            System.out.println(number+" "+count+" times");
             if(count>n.length/2){
                 System.out.print("Majority Element = "+number+" Repeates = "+count+" times");
                 return 0;
@@ -21,7 +22,8 @@ public class majority_element {
     }
 
     public static void main(String [] args){
-        int numbers [] = {3, 3, 4, 2, 4, 4, 2, 4};
+        int numbers [] = {3, 3, 4, 2, 4, 4, 2, 4 ,4};
+       //int numbers[] = {3,3,2,4,2,4,4,4,4,4,4};
         if(majorityElement(numbers) == -1){
             System.out.print("No majority Element !!");
         }

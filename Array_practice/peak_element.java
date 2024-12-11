@@ -1,4 +1,4 @@
-package Array_practice;
+p ackage Array_practice;
 
 public class peak_element {
 

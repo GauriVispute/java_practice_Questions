@@ -14,7 +14,6 @@ public class counting_sort {
         for(int i = 0;i<n.length;i++){
             count[n[i]]++;
         }
-
         //sorting
         int j =0;
         for(int i=0;i<n.length-1;i++){

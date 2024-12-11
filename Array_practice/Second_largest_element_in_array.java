@@ -1,4 +1,4 @@
-package Array_practice;
+   ackage Array_practice;
 
 import java.util.*;
 

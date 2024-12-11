@@ -9,9 +9,9 @@ public class triplets_sum_zero {
                 int k = j+1;
                 if(i!=j && j!=k && k!=i && (n[i]+n[j]+n[k] == 0)){
                     //if(n[i]+n[j]+n[k] == 0){
-                        System.out.print("["+n[i]+","+n[j]+","+n[k]+"] ");
+                        System.out.print("["+n[i]+","+n[j]+","+n[k]+"],");
                     //}
-                }
+                } 
             }
         }
         System.out.print("\b]");

@@ -28,8 +28,8 @@ public class bubble_sort_algo {
     }
 
     public static void main(String[] args) {
-       int numbers [] = {3,6,2,1,8,7,4,5,3,1};
-       //int numbers [] = {1,2,3,4,5};
+       //int numbers [] = {3,6,2,1,8,7,4,5,3,1};
+        int numbers [] = {5,4,1,3,2};
         bubbleSort(numbers);
         printArray(numbers);
     }

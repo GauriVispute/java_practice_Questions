@@ -1,4 +1,4 @@
-package Array_practice;
+3ackage Array_practice;
 
 public class non_repeating_no {
 

@@ -3,7 +3,7 @@ package ArraySortingAlgorithms;
 public class insertion_sort_algorithm {
 
     public static void insertionSort(int n[]){
-        for(int i=1;i<n.length-1;i++){// no .of turns :n-1 turns
+        for(int i=1;i<n.length;i++){// no .of turns :n-1 turns[1,5)
             int curr = n[i];
             int prev = i-1;
             while(prev>=0 && n[prev]>curr){
