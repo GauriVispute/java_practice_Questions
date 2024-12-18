@@ -13,7 +13,7 @@ public class valid_paranthesis {
         return count;
     }
     public static void main(String[] args) {
-        String str = "()((()))((";
+        String str = "]]()((()))((";
         if(validParanthesis(str) == 0 ){
             System.out.println("Has valid Parenthesis");
         } else{
