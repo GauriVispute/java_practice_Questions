@@ -14,6 +14,6 @@ public class count_set_Bits_in_number {
     }
 
     public static void main(String[] args) {
-        System.out.println(countSetBitsInNumber(10));
+        System.out.println(countSetBitsInNumber(15));
     }
 }
