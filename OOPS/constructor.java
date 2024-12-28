@@ -2,9 +2,13 @@ package OOPS;
 
 public class constructor {
     public static void main(String[] args) {
+        
         Student s1 = new Student();
+        s1.marks
         Student s2 = new Student("Gauri");
-        Student s3 = new Student(12);
+        Student s3 = new Student(12); 
+
+
         //Student s4 = new Student("aditya",56);
         //System.out.println(s1.name);
     }
@@ -13,6 +17,7 @@ public class constructor {
 class Student{
     private String name;
     int rollno;
+
 
     //non-parameterized constructor
     Student(){
@@ -27,6 +32,7 @@ class Student{
         System.out.println("Contructor is called ....");
     }
 
+    // parameterized constructor
     Student(String name){
         this.name = name;
     }
