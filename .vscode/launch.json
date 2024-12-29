@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "package_file",
+            "request": "launch",
+            "mainClass": "OOPS.package_file",
+            "projectName": "java_practice_Questions_372167ea"
+        },
+        {
+            "type": "java",
             "name": "matrix_multiplication",
             "request": "launch",
             "mainClass": "Arrays_two_D_practice.matrix_multiplication",
