@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "power_optimize_code",
+            "request": "launch",
+            "mainClass": "recursion.power_optimize_code",
+            "projectName": "java_practice_Questions_372167ea"
+        },
+        {
+            "type": "java",
             "name": "package_file",
             "request": "launch",
             "mainClass": "OOPS.package_file",
