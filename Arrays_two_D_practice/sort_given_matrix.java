@@ -17,6 +17,7 @@ public class sort_given_matrix {
         System.out.println();
     }
 
+    //take 2d array into 1d array
     public static void sortMatrix(int matrix [][]){
         int n[] = new int [matrix.length*matrix[0].length];
         int k =0;

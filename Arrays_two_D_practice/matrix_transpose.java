@@ -22,16 +22,17 @@ public class matrix_transpose {
                 transpose[j][i]=matrix[i][j];
             }
         }
+        System.out.println("Transpose matrix : ");
         printMatrix(transpose);
     }
 
     public static void main(String[] args) {
-        int m1 [][] = {{1,1},
-                       {2,2},
-                       {3,3}};
+        int m1 [][] = {{1,2},
+                       {3,4},
+                       {5,6}};
         printMatrix(m1);
         System.out.println();
         transposeMatrix(m1);
-        System.out.println("Transpose matrix : ");
+       
     }
 }

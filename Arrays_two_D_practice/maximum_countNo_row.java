@@ -4,7 +4,7 @@ public class maximum_countNo_row {
 
     public static void maximumCountNoRow(int matrix[][],int target){
         int maxCount = Integer.MIN_VALUE;
-        int index = 0;
+        int row = 0;
 
         for(int i=0;i<matrix.length;i++){
             int count = 0;
@@ -13,16 +13,22 @@ public class maximum_countNo_row {
                     count++;
                 }
             }
+            int prevMax = maxCount;
             maxCount = Math.max(maxCount, count);
-            index = i;
+            if(maxCount<=matrix.length && prevMax!= maxCount){
+                row = i;
+            }
         }
-        System.out.print("Maximum count of 1 is "+maxCount+" in row "+index);
+        System.out.print("Maximum count of "+target+" is "+maxCount+" in row "+row);
     } 
 
     public static void main(String[] args) {
-        int matrix [][] = {{1,0,1},
+        int matrix [][] = {//{0,0,1},
+                           {0,1,1},
                            {1,2,1},
                            {1,1,1}};
+                           //{1,1,1}
+                        
         maximumCountNoRow(matrix,1);
     }
 }

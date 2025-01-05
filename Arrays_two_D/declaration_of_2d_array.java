@@ -1,6 +1,6 @@
 package Arrays_two_D;
 import java.util.Scanner;
-public class decration_of_2d_array {
+public class declaration_of_2d_array {
     public static void main(String[] args) {
         int matrix [][] = new int [3][3];
         int m = matrix.length,n=matrix[0].length;
