@@ -47,7 +47,7 @@ public class print_duplicates_in_string {
 
 
     public static void main(String[] args) {
-        String str = "avadhutvispute";
+        String str = "geeksforgeeks";
         printAllDuplicates(str);
         //sortString(str);
     }
