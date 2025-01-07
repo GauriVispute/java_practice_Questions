@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "binary_search_by_recursion",
+            "request": "launch",
+            "mainClass": "recursion_practice.binary_search_by_recursion",
+            "projectName": "java_practice_Questions_372167ea"
+        },
+        {
+            "type": "java",
             "name": "tiling_problem",
             "request": "launch",
             "mainClass": "recursion.tiling_problem",
