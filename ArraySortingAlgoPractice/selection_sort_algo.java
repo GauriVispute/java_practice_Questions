@@ -9,11 +9,11 @@ public class selection_sort_algo {
                 if(n[minPos]>n[j]){
                     minPos = j;
                 }
-                // swap
-                int temp = n[minPos];
-                n[minPos] = n[i];
-                n[i]=temp;
             }
+            // swap
+            int temp = n[minPos];
+            n[minPos] = n[i];
+            n[i]=temp;
         }
     }
 
