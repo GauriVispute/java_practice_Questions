@@ -3,8 +3,10 @@ package Backtracking;
 import Strings.subString;
 
 public class permutations_of_string {
-    public static void findPermutation(String str,String ans){
+    //public static int count = 0;
+    public static void  findPermutation(String str,String ans){
         if(str.length()==0){
+            //count++;
             System.out.println(ans);
             return ;
         }
@@ -16,10 +18,13 @@ public class permutations_of_string {
             String NewStr = str.substring(0,i)+str.substring(i+1);
             findPermutation(NewStr,ans+curr);
         }
+
     }
 
     public static void main(String[] args) {
-        String str = "abc";
+        String str = "abcdef";
         findPermutation(str,"");
+        //System.out.println(count);
+    //System.out.println(str.substring(0,0));
     }
 }
