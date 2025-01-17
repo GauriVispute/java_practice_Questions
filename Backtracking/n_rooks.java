@@ -1,6 +1,7 @@
 package Backtracking;
 
 public class n_rooks {
+    static int count = 0;
     public static void printBoard(char board[][]){
         System.out.println("---------chess board-------");
         for(int i=0;i<board.length;i++){
@@ -22,6 +23,7 @@ public class n_rooks {
 
     public static void nRooks(char board [][],int row){
        if(row == board.length){
+            count++;
             printBoard(board);
             return;
        }
@@ -41,11 +43,10 @@ public class n_rooks {
         //initialization
         for(int i=0;i<n;i++){
             for(int j=0;j<n;j++){
-                board[i][j] = 'x';
+                board[i][j] = 'X';
             }
-            System.out.println();
         }
         nRooks(board , 0);
-        printBoard(board);
+        System.out.println("Total solutions : "+count);
     }
 }
