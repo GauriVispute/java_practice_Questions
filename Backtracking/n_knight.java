@@ -63,7 +63,7 @@ public class n_knight {
             if(isSafe(board,row,j)){
                 board[row][j]='K';
                 nKnight(board,row+1);
-                //board[row][j]='X';
+                board[row][j]='X';
             }
         }
     }
